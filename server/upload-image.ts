@@ -4,7 +4,6 @@ import { UploadApiResponse, v2 as cloudinary } from "cloudinary";
 import { actionClient } from "@/lib/safe-action";
 import z from "zod";
 
-
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_NAME,
   api_key: process.env.CLOUDINARY_KEY,
